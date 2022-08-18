@@ -6,11 +6,34 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXFileReference section */
+		9C7454AF28AA9DC800F87572 /* OCP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = OCP.playground; path = ../../OCP.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9CC0C73228AD6A27001560DF /* Builder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Builder.playground; path = ../../Builder.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		9C7454A728AA9D5B00F87572 = {
 			isa = PBXGroup;
 			children = (
+				9CC0C73028AD697C001560DF /* Patterns */,
+				9C7454AE28AA9D7A00F87572 /* SOLID */,
 			);
+			sourceTree = "<group>";
+		};
+		9C7454AE28AA9D7A00F87572 /* SOLID */ = {
+			isa = PBXGroup;
+			children = (
+				9C7454AF28AA9DC800F87572 /* OCP.playground */,
+			);
+			path = SOLID;
+			sourceTree = "<group>";
+		};
+		9CC0C73028AD697C001560DF /* Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				9CC0C73228AD6A27001560DF /* Builder.playground */,
+			);
+			path = Patterns;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
